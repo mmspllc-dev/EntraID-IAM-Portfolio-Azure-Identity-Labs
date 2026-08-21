@@ -13,4 +13,7 @@ This lab establishes dedicated emergency access (break-glass) accounts in Micros
 1. Created cloud-only accounts: `bgadmin1` and `bgadmin2`.
 2. Assigned **Global Administrator** directory role to both identities.
 3. Created security group `GRP-BreakGlass-Exclusions` and added both accounts as direct members.
+
+![GRP-BreakGlass-Exclusions Group Membership](media/grp-breakglass-members.png)
+
 4. Established `.env` secret tracking rules and verified clean repository state.
