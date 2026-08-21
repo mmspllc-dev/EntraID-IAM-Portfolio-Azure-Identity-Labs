@@ -1,6 +1,6 @@
 # Environmental variables & secrets
-*.env
-.env.*
+.env
+!.env.example
 *credentials*
 *passwords*
 *.pem
