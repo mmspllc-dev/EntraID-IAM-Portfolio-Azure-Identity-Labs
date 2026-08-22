@@ -16,9 +16,9 @@ Automate the mass creation of mock user identities in Microsoft Entra ID using t
 ### 1. Script Execution
 The automation script reads from a local CSV file, validates identity existence, and gracefully skips existing test accounts:
 
-![PowerShell Script Execution](../media/ps-script-useralreadycreatedskipping.png)
+![PowerShell Script Execution](media/ps-script-useralreadycreatedskipping.PNG)
 
 ### 2. Entra ID Portal Verification
 Validated via the Microsoft Entra admin center (`M&M's Service and Performance LLC`), confirming successfully provisioned user objects (`Alex Mercer`, `Sarah Chen`, `Marcus Vance`) ready for role and group assignment testing:
 
-![Entra ID Portal Users](../media/bulk-created-users.png)
+![Entra ID Portal Users](media/bulk-created-users.PNG)
